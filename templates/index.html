@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-title" content="九妹图社" />
+    <title>图片网站首页--测试</title>
+    <meta name="keywords" content="九妹图社,美女图片,性感美女,mm">
+    <meta name="description" content="九妹图社提供ROSI写真无水印图片，推女郎高清晰图片等，给大家一个赏心悦目的美图网站。">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="header" id="header">
+        <span class="login">
+            <a href="/member/login.php">
+                <i class="icon"></i>
+            </a>
+        </span>
+        <h1>九妹图社</h1>
+        <span class="open">
+            <i class="icon" onClick="opensearch();"></i>
+        </span>
+    </div>
+    <div class="nav">
+        <a href="/xinggan/">性感</a>
+        <a href="/meitui/">美腿</a>
+        <a href="/qingchun/">清纯</a>
+        <a href="/hot/">推荐</a>
+        <a href="/guestbook/">留言</a>
+    </div>
+    <div class="search" id="search">
+        <form name="forms" id="forms" method="post" action="/search.php">
+            <p>
+                <input type="text" name="searchtext" id="searchtext">
+                <i class="icon" onClick="gosearch();"></i>
+            </p>
+        </form>
+    </div>
+    <div>
+        <ul class="piclist" id="piclist">
+            <li>
+                <h2>
+                    <a href="/qingchun/2794.html">美女卓娅祺魅惑写真性感蕾丝袜令人惊艳</a>
+                </h2>
+                <div class="pic">
+                    <a href="/qingchun/2794.html">
+                        <img src="/pic/1.jpg" alt="美女卓娅祺魅惑写真性感蕾丝袜令人惊艳" />
+                    </a>
+                </div>
+                <div class="info">
+                    <span>04-17 发布</span>
+                    <span class="like">浏览(1)</span>
+                </div>
+            </li>
+            <li>
+                <h2>
+                    <a href="/xinggan/2793.html">性感模特火辣的娇躯毫无保留呈现给你</a>
+                </h2>
+                <div class="pic">
+                    <a href="/xinggan/2793.html">
+                        <img src="/pic/1.jpg" alt="性感模特火辣的娇躯毫无保留呈现给你" />
+                    </a>
+                </div>
+                <div class="info">
+                    <span>04-16 发布</span>
+                    <span class="like">浏览(196835)</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="page">
+        <ul>
+            <li class="pre">
+                <i>上一页</i>
+            </li>
+            <li>第1页</li>
+            <li class="next">
+                <a href="/home/2.html">下一页</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">Copyright &copy; 九妹图社 m.99mm.me</div>
+    <div id="topbtn" onClick="goscrolltop();"></div>
+    <!--     <script type="text/javascript" src="/static/css/common.js"></script>
+ -->
+</body>
+
+</html>
