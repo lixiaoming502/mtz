@@ -112,4 +112,4 @@ window.onscroll = function () {
     }
     bscroll = ascroll;
 };
-sendwData();
+//sendwData();
